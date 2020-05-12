@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Style-Form JP Restaurant</title>
+    <link rel="stylesheet" href="Self-Style-Form.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="image of logo">
+    </header>
+
+    <form action="">
+        <!-- Gender, radio button -->
+        <p>You are a ...</p>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+        <!-- Interests, checkbox -->
+        <p>Which food are you interested in for 'Weekend Offer'?</p>
+        <input type="checkbox" id="sushi">
+        <label for="sushi">Sushi</label><br>
+        <input type="checkbox" id="sukiyaki">
+        <label for="sukiyaki">Sukiyaki</label><br>
+        <input type="checkbox" id="macha-desert">
+        <label for="macha-desert">Macha Desert</label>
+
+        <!-- Contact details, fieldset -->
+        <fieldset>
+            <legend>Contact Information</legend>
+            <input type="email" placeholder="E-mail" required>
+            <span class="tick"></span>
+            <input type="telephone" placeholder="Phone number" required>
+            <span class="tick"></span>
+        </fieldset>
+
+        <!-- Preferred, select box -->
+        <p>How would you like to be contacted?</p>
+        <select name="" id="">
+            <option value="">By E-mail</option>
+            <option value="">By Phone</option>
+        </select>
+
+        <!-- Submit button -->
+        <input type="submit" value="Become a Member">
+    </form>
+    
+</body>
+</html>
